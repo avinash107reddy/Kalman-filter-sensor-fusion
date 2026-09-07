@@ -1,5 +1,4 @@
 """
-sr
 
 Generates the "ground truth" 1D trajectory that the Kalman filter will
 later try to estimate from noisy sensor data. No noise is added here --
