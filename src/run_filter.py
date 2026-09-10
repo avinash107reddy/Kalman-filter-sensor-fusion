@@ -49,6 +49,7 @@ def main():
     plt.title("Kalman Filter Position Estimate vs Ground Truth and Raw GPS")
     plt.legend()
     plt.tight_layout()
+    plt.savefig("../results/kalman_filter_result.png", dpi=150)
     plt.show()
 
     # Print error metrics

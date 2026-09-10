@@ -30,7 +30,7 @@ def plot_ground_truth():
     axes[2].grid(True)
 
     plt.tight_layout()
-    plt.savefig("ground_truth.png", dpi=150)
+    plt.savefig("../results/ground_truth.png", dpi=150)
     print("Saved plot to ground_truth.png")
     plt.show()
 
